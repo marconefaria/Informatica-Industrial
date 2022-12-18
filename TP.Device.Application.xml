@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbolconfiguration xmlns="http://www.3s-software.com/schemas/Symbolconfiguration.xsd">
+  <Header>
+    <Version>3.5.6.0</Version>
+    <SymbolConfigObject version="3.5.6.0" />
+    <ProjectInfo name="TP" devicename="Device" appname="Application" />
+  </Header>
+  <TypeList>
+    <TypeSimple name="T_BOOL" size="1" swapsize="0" typeclass="Bool" iecname="BOOL" />
+    <TypeSimple name="T_REAL" size="4" swapsize="4" typeclass="Real" iecname="REAL" />
+    <TypeSimple name="T_INT" size="2" swapsize="2" typeclass="Int" iecname="INT" />
+  </TypeList>
+  <NodeList>
+    <Node name="Application">
+      <Node name="ENTRADAS">
+        <Node name="Back_LOCAL" type="T_BOOL" access="ReadWrite" />
+        <Node name="BM_MODO" type="T_BOOL" access="ReadWrite" />
+        <Node name="Chave_EMERGENCIA" type="T_BOOL" access="ReadWrite" />
+        <Node name="CHAVE_MT_1" type="T_BOOL" access="ReadWrite" />
+        <Node name="Clock_LOCAL" type="T_BOOL" access="ReadWrite" />
+        <Node name="Close_LOCAL" type="T_BOOL" access="ReadWrite" />
+        <Node name="Down_LOCAL" type="T_BOOL" access="ReadWrite" />
+        <Node name="Front_LOCAL" type="T_BOOL" access="ReadWrite" />
+        <Node name="ON_OFF" type="T_BOOL" access="ReadWrite" />
+        <Node name="Open_LOCAL" type="T_BOOL" access="ReadWrite" />
+        <Node name="RESET_M1" type="T_BOOL" access="ReadWrite" />
+        <Node name="RESET_M2" type="T_BOOL" access="ReadWrite" />
+        <Node name="RESET_M3" type="T_BOOL" access="ReadWrite" />
+        <Node name="RESET_M4" type="T_BOOL" access="ReadWrite" />
+        <Node name="RETIRADA_PECA" type="T_BOOL" access="ReadWrite" />
+        <Node name="TP_LOCAL_CF" type="T_BOOL" access="ReadWrite" />
+        <Node name="TP_LOCAL_DF" type="T_BOOL" access="ReadWrite" />
+        <Node name="TP_MODO" type="T_BOOL" access="ReadWrite" />
+        <Node name="Unclock_LOCAL" type="T_BOOL" access="ReadWrite" />
+        <Node name="Up_LOCAL" type="T_BOOL" access="ReadWrite" />
+      </Node>
+      <Node name="SAIDAS">
+        <Node name="EMG" type="T_BOOL" access="ReadWrite" />
+        <Node name="ET" type="T_BOOL" access="ReadWrite" />
+        <Node name="FALHA_M1" type="T_BOOL" access="ReadWrite" />
+        <Node name="FALHA_M2" type="T_BOOL" access="ReadWrite" />
+        <Node name="FALHA_M3" type="T_BOOL" access="ReadWrite" />
+        <Node name="FALHA_M4" type="T_BOOL" access="ReadWrite" />
+        <Node name="M1" type="T_BOOL" access="ReadWrite" />
+        <Node name="M2" type="T_BOOL" access="ReadWrite" />
+        <Node name="M3" type="T_BOOL" access="ReadWrite" />
+        <Node name="M4" type="T_BOOL" access="ReadWrite" />
+        <Node name="M5" type="T_BOOL" access="ReadWrite" />
+        <Node name="MT" type="T_BOOL" access="ReadWrite" />
+        <Node name="POSI_M1" type="T_REAL" access="ReadWrite" />
+        <Node name="POSI_M2" type="T_REAL" access="ReadWrite" />
+        <Node name="POSI_M3" type="T_REAL" access="ReadWrite" />
+        <Node name="POSI_M4" type="T_REAL" access="ReadWrite" />
+        <Node name="Q" type="T_BOOL" access="ReadWrite" />
+        <Node name="tarugo" type="T_BOOL" access="ReadWrite" />
+        <Node name="Tarugo_MT" type="T_BOOL" access="ReadWrite" />
+        <Node name="Total_Pecas" type="T_INT" access="ReadWrite" />
+        <Node name="TP_1" type="T_BOOL" access="ReadWrite" />
+        <Node name="TP_2" type="T_BOOL" access="ReadWrite" />
+        <Node name="TP_TRAVADO" type="T_BOOL" access="ReadWrite" />
+        <Node name="ZXS_101" type="T_BOOL" access="ReadWrite" />
+        <Node name="ZXS_102" type="T_BOOL" access="ReadWrite" />
+        <Node name="ZXS_104" type="T_BOOL" access="ReadWrite" />
+        <Node name="ZXS_105" type="T_BOOL" access="ReadWrite" />
+        <Node name="ZXS_201" type="T_BOOL" access="ReadWrite" />
+        <Node name="ZXS_202" type="T_BOOL" access="ReadWrite" />
+        <Node name="ZXT_101" type="T_BOOL" access="ReadWrite" />
+        <Node name="ZXT_103" type="T_BOOL" access="ReadWrite" />
+        <Node name="ZXT_104" type="T_BOOL" access="ReadWrite" />
+        <Node name="ZYS_103" type="T_BOOL" access="ReadWrite" />
+        <Node name="ZYT_102" type="T_BOOL" access="ReadWrite" />
+      </Node>
+    </Node>
+  </NodeList>
+</Symbolconfiguration>
